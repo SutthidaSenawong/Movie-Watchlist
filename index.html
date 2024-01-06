@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Head -->
+    <header>
+      <p class="hero-text">Find your film</p>
+      <ul>
+        <li><a href="watchList.html">Watchlist</a></li>
+      </ul>
+    </header>
+    <!-- Search movie -->
+    <div class="search-container">
+      <div class="search-input">
+        <i class="fa-solid fa-magnifying-glass" style="color: #99a2b2"></i>
+        <input id="movie-input" type="text" placeholder="Search for a movie" />
+      </div>
+      <button class="search-btn" id="search-btn">Search</button>
+    </div>
+    <!-- Display Movie list -->
+    <main>
+      <div class="movie-list" id="movie-list"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
